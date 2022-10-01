@@ -1,0 +1,7 @@
+Comandos Jupyter
+Run
+jupyter-lab
+
+gerar arquivo config
+jupyter-lab --generate-config
+acessar C:\Users\ferna\.jupyter para configurar.

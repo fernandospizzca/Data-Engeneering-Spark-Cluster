@@ -1,0 +1,4 @@
+./sbin/start-all.sh
+./sbin/stop-all.sh
+sh run_job.sh
+jps
