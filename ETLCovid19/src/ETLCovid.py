@@ -10,12 +10,6 @@ import os
 
 class ETLCovid():
 
-########################################################
-    # def __init__(self, spark):
-    #     self.__spark = spark
-########################################################
-
-    # def runETLCovid(self):
     def runETLCovid(spark):
 
         #Rodar de segunda a sexta após as 16:00 devido disponibilização dos dados de vacinação.
