@@ -3,7 +3,7 @@ chmod 777 /tmp/spark-events
 
 spark-submit \
 --deploy-mode client \
---master spark://192.168.1.10:7077 \
+--master spark://192.168.1.6:7077 \
 --conf spark.shuffle.service.enabled=false \
 --conf spark.dynamicAllocation.enabled=false \
 --conf spark.standalone.submit.waitAppCompletion=false \
